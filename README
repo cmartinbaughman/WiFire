@@ -21,25 +21,26 @@ What is WiFire
 Is a bash script created by blusp10it to facilitate
 pentester the WiFi password cracking. As can WiFire
 do:
-   1. AP scanning and detects the encryption technology => Beta 0
-   2. Looking client and customize wordlist => Beta 0
-   3. Cracking WEP => Beta 0
-   4. Cracking WPA => Beta 0
+   1. AP scanning and detects the encryption technology => Beta 0
+   2. Looking client and customize wordlist => Beta 0
+   3. Cracking WEP => Beta 0
+   4. Cracking WPA => Beta 0
 
 The next project is to add a DoS mode and Injection for
 attack. Note, this script would be optimal if
 run in OS Back | Track.
 
 Fixed issue:
-  1. Error ketika mengecek dependency => Beta 0
-  2. Cek wordlist otomatis => RC 1
-  3. Mengembalikan Network Manager Daemon yang tertutup karena airmon-ng check kill => RC 1
-  4. Membuat laporan key di working directory => RC 2
-  5. Improve performace Deauth => RC 2
-  6. Interface selain wlan0 => RC 3
-  7. Default wordlist adalah "/pentest/passwords/wordlists/darkc0de.lst" => RC 3
-  8. LOOPING issue fixed => 0.2
-  9. Typo fixed (= => 0.2
- 10. New banner => 0.2
+   1. Error when checking dependencies => Beta 0
+   2. Automatically checks wordlist => RC 1
+   3. Restoring Network Manager Daemon closed because airmon-ng check kill => RC 1
+   4. Make a key report on the working directory => RC 2
+   5. Improve performace Deauth => RC 2
+   6. Wlan0 Interface besides => RC 3
+   7. Wordlist default is "/ pentest/passwords/wordlists/darkc0de.lst" => RC 3
+   8. Looping issue fixed => 0.2
+   9. Typo fixed (==> 0.2
+  10. New banner => 0.2
+
 
 (C)opyright blusp10it
